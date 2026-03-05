@@ -64,8 +64,7 @@ com.example.library
    POST /books
 
 Example JSON:
-    
-    ```json
+  ```json
 {
   "title": "Java Programming",
   "author": "James Gosling",
