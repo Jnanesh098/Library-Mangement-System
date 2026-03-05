@@ -3,10 +3,9 @@
 -------
 
 ## Project Description :
-The Library Management System is a REST API based application developed using Spring Boot and MySQL.
-It helps to manage library operations such as adding books, registering members, and issuing books to members.
-
-This project demonstrates the use of Spring Boot, Spring Data JPA, REST APIs, and MySQL database integration.
+1. The Library Management System is a REST API based application developed using Spring Boot and MySQL.
+2. It helps to manage library operations such as adding books, registering members, and issuing books to members.
+3. This project demonstrates the use of Spring Boot, Spring Data JPA, REST APIs, and MySQL database integration.
 
 --------
 
@@ -63,6 +62,7 @@ com.example.library
 
    Add Book
    POST /books
+
 Example JSON:
     ```json
 {
@@ -79,6 +79,7 @@ GET /books
 
    Add Member
    POST /members
+
 Example JSON:
   ```json
 {
@@ -95,6 +96,7 @@ GET /members
 
     Issue Book
     POST /issue/{memberId}/{bookId}
+
 Example:
     POST /issue/1/1
 
@@ -105,11 +107,11 @@ Example:
 ### Update the application.properties file:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/library_db
-spring.datasource.username=root
-spring.datasource.password=your_password
+| spring.datasource.username=root
+| spring.datasource.password=your_password
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+| spring.jpa.hibernate.ddl-auto=update
+| spring.jpa.show-sql=true
 
 ---------
 
